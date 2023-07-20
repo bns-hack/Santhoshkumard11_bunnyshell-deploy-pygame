@@ -1,12 +1,11 @@
 kind: Environment
 name: Pygames_on_web
 type: primary
-urlHandle: sandyinspires
 components:
     -
         kind: Application
         name: prod
-        gitRepo: 'https://github.com/Santhoshkumard11/bunnyshell-deploy-pygame.git'
+        gitRepo: 'https://github.com/bns-hack/Santhoshkumard11_bunnyshell-deploy-pygame.git'
         gitBranch: main
         gitApplicationPath: pygames
         dockerCompose:
@@ -23,7 +22,7 @@ components:
     -
         kind: Application
         name: stg
-        gitRepo: 'https://github.com/Santhoshkumard11/bunnyshell-deploy-pygame.git'
+        gitRepo: 'https://github.com/bns-hack/Santhoshkumard11_bunnyshell-deploy-pygame.git'
         gitBranch: stg
         gitApplicationPath: pygames
         dockerCompose:
@@ -40,7 +39,7 @@ components:
     -
         kind: Application
         name: dev
-        gitRepo: 'https://github.com/Santhoshkumard11/bunnyshell-deploy-pygame.git'
+        gitRepo: 'https://github.com/bns-hack/Santhoshkumard11_bunnyshell-deploy-pygame.git'
         gitBranch: dev
         gitApplicationPath: pygames
         dockerCompose:
